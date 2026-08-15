@@ -1,0 +1,377 @@
+{
+  "nav": {
+    "home": "Home",
+    "farmer": "Farmer",
+    "student": "Student",
+    "library": "Library",
+    "schemes": "Schemes"
+  },
+  "home": {
+    "badge": "Official Gram Panchayat Platform",
+    "tagline": "Everyone's development - Our village's progress",
+    "desc": "Services related to your village on a single platform — report local issues, track complaint status, and know details of government schemes.",
+    "reportBtn": "Report a problem",
+    "checkBtn": "Check status",
+    "active": "The portal is active.",
+    "location": "Pamidi Mandal, Anantapur District",
+    "officialPortal": "Official Portal",
+    "loading": "Loading...",
+    "stats": {
+      "totalTitle": "Total Complaints",
+      "totalDesc": "View all complaints from the village",
+      "pendingTitle": "Pending Action",
+      "pendingDesc": "Complaints waiting for review",
+      "progressTitle": "In Progress",
+      "progressDesc": "Work currently underway",
+      "resolvedTitle": "Resolved",
+      "resolvedDesc": "Issues successfully fixed"
+    },
+    "servicesTitle": "Village Services",
+    "services": {
+      "roads": { "title": "Roads", "desc": "View & Report road issues" },
+      "water": { "title": "Water", "desc": "Water supply and issues" },
+      "lights": { "title": "Street Lights", "desc": "Report street light problems" },
+      "garbage": { "title": "Garbage", "desc": "Garbage collection and issues" },
+      "farmer": { "title": "Farmer", "desc": "Crops, prices & farming info" },
+      "student": { "title": "Student", "desc": "Scholarships & education" },
+      "library": { "title": "Library", "desc": "Books & learning resources" },
+      "schemes": { "title": "Schemes", "desc": "Government schemes" }
+    },
+    "newsTitle": "Latest Village News",
+    "emergencyTitle": "Emergency Contacts",
+    "callBtn": "Call",
+    "newsList": [
+      { "title": "🚰 Discussion on Drinking Water Issues", "date": "First Sunday of January, 6 PM", "description": "Discussion on water supply, borewell repairs, and tanker schedule.", "author": "Panchayat Office" },
+      { "title": "🛣️ Discussion on Drainage & Road Issues", "date": "First Sunday of April, 6 PM", "description": "Discussion on road repairs, drainage cleanliness, and pre-monsoon planning.", "author": "Panchayat Office" },
+      { "title": "📚 Discussion on Youth Education & Employment", "date": "First Sunday of June, 6 PM (school opening time)", "description": "Discussion on scholarships, study support, and job opportunities.", "author": "Village Youth Committee" },
+      { "title": "🎉 Sankranti Celebrations Plan & Village Development Discussion", "date": "First Sunday of October, 6 PM", "description": "Youth discuss Sankranti celebration arrangements and village development ideas.", "author": "Village Youth Committee" },
+      { "title": "🏛️ Quarterly Gram Sabha Meeting", "date": "Once every 3 months, first Sunday of the month, 6 PM", "description": "Full review meeting on all issues and schemes in the village.", "author": "Panchayat Office" },
+      { "title": "📞 Police 100 | Ambulance 108 | Women Helpline 181 | Childline 1098", "date": "Always remember", "description": "Remember these numbers to dial immediately in emergencies.", "author": "Panchayat Office" }
+    ],
+    "contacts": [
+      { "name": "Panchayat Office", "phone": "08552-245001" },
+      { "name": "Police Station (Local)", "phone": "08552-245333 / 9440796827" },
+      { "name": "Pamidi Mandal Office", "phone": "9493188834" },
+      { "name": "Police Emergency", "phone": "100" },
+      { "name": "Health Center (Local)", "phone": "08554-111222" },
+      { "name": "Ambulance", "phone": "108" },
+      { "name": "Women Helpline", "phone": "181" },
+      { "name": "Women Safety (Police)", "phone": "1091" },
+      { "name": "Childline (Child Protection)", "phone": "1098" },
+      { "name": "Fire Department", "phone": "101" },
+      { "name": "Dial 112 (All Emergencies)", "phone": "112" }
+    ]
+  },
+  "library": {
+    "title": "Digital Library",
+    "subtitle": "Trusted study resources, all in one place",
+    "backHome": "← Back to Home",
+    "searchPlaceholder": "🔍 Search for books, courses, exams...",
+    "ndlLabel": "Central Government Mega Library",
+    "ndlTitle": "National Digital Library of India (NDL)",
+    "ndlDesc": "If you can't find it here — crores of books, free.",
+    "ndlBtn": "Open NDL",
+    "totalResources": "Total {{count}} resources",
+    "noResults": "No results found, sorry",
+    "viewBtn": "Open website",
+    "categories": {
+      "all": "All",
+      "school": "School Education",
+      "higher": "Higher Education",
+      "competitive": "Competitive Exams",
+      "agriculture": "Agriculture",
+      "reading": "Novels & News",
+      "law": "Legal Resources"
+    },
+    "resources": [
+      { "title": "NCERT E-Books (All Classes)", "desc": "Telugu & English medium textbooks for classes 1 to 12." },
+      { "title": "AP Board of Intermediate Education", "desc": "Inter 1st/2nd year academic books, hall tickets, results." },
+      { "title": "NPTEL — Free IIT Courses", "desc": "Engineering courses and video lectures from IITs, for free." },
+      { "title": "Coursera — Free Certificate Courses", "desc": "Learn free certificate courses from world-renowned universities." },
+      { "title": "APPSC Official Portal", "desc": "AP Group 1,2,3, Police exam notifications & syllabus." },
+      { "title": "UPSC Civil Services", "desc": "IAS/IPS exam syllabus, previous papers, notifications." },
+      { "title": "MANAGE Agriculture Portal", "desc": "Modern farming methods, free guides for farmers." },
+      { "title": "Pratilipi Telugu Novels", "desc": "Thousands of Telugu stories and novels, free to read." },
+      { "title": "Eenadu E-Paper", "desc": "Latest news from Telugu states, district editions." },
+      { "title": "India Code — Law Repository", "desc": "Indian laws, Bare Acts, the Constitution, free." }
+    ]
+  },
+  "schemes": {
+    "title": "Government Welfare Schemes",
+    "subtitle": "AP & Central Government Welfare Schemes Portal",
+    "backHome": "← Back to Home",
+    "amountLabel": "Benefit",
+    "eligibilityLabel": "Eligibility",
+    "deadlineLabel": "Deadline",
+    "viewBtn": "Official Website",
+    "tabs": {
+      "state": "AP State Schemes",
+      "central": "Central Schemes",
+      "ids": "IDs & Documents"
+    },
+    "state": [
+      { "title": "Thalliki Vandanam", "desc": "Main AP welfare scheme providing financial support to mothers of school-going children.", "amount": "₹15,000 / year", "eligibility": "Mothers of school-going children", "status": "Active", "deadline": "Ongoing" },
+      { "title": "NTR Bharosa Pension", "desc": "Enhanced monthly social security pension for elderly, widows, disabled and weavers.", "amount": "₹4,000 - ₹6,000 / month", "eligibility": "Eligible AP residents", "status": "Active", "deadline": "Ongoing" },
+      { "title": "Annadata Sukhibhava", "desc": "Financial support to farmer families for seeds, fertilizers and cultivation expenses.", "amount": "₹20,000 / year", "eligibility": "Landowning & tenant farmers", "status": "Active", "deadline": "Ongoing" },
+      { "title": "Deepam 2.0", "desc": "Free LPG gas cylinders provided to eligible women every year.", "amount": "3 free cylinders / year", "eligibility": "White ration card holders", "status": "Active", "deadline": "Ongoing" },
+      { "title": "Adarana 3.0", "desc": "Subsidy for modern tools and mopeds for toddy tappers and artisans.", "amount": "Up to 90% subsidy", "eligibility": "Toddy tappers, artisans, BPL families", "status": "Active", "deadline": "Ongoing" },
+      { "title": "Free Bus Travel for Women", "desc": "Free travel facility for all women in APSRTC buses.", "amount": "Free travel facility", "eligibility": "Women passengers", "status": "Active", "deadline": "Ongoing" }
+    ],
+    "central": [
+      { "title": "PM-KISAN Samman Nidhi", "desc": "Central scheme depositing money directly into eligible farmer families' accounts in 3 installments per year.", "amount": "₹6,000 / year", "eligibility": "All landholding farmers", "status": "Active", "deadline": "Ongoing" },
+      { "title": "Crop Insurance (PMFBY)", "desc": "Low-premium crop insurance protecting farmers against crop loss due to natural calamities.", "amount": "Compensation on crop loss", "eligibility": "All farmers", "status": "Active", "deadline": "Every season" },
+      { "title": "Ayushman Bharat (PM-JAY)", "desc": "National health scheme providing free hospital treatment coverage for poor families.", "amount": "₹5 lakh health insurance", "eligibility": "Families in SECC list", "status": "Active", "deadline": "Ongoing" },
+      { "title": "PM Awas Yojana (Gramin)", "desc": "Financial subsidy from the central government for the poor in rural areas to build their own houses.", "amount": "Financial subsidy support", "eligibility": "Homeless poor families", "status": "Applications open", "deadline": "2026-12-31" },
+      { "title": "PM Ujjwala Yojana", "desc": "Free LPG gas connections for women from BPL households.", "amount": "Free LPG connection", "eligibility": "BPL household women", "status": "Active", "deadline": "Ongoing" },
+      { "title": "PM Jan Dhan Yojana", "desc": "Zero-balance bank account with RuPay debit card and accident insurance cover.", "amount": "Free bank account + ₹2 lakh cover", "eligibility": "Every Indian citizen", "status": "Active", "deadline": "Ongoing" }
+    ],
+    "ids": [
+      { "title": "DigiLocker", "desc": "Store certificates, ID cards and important documents securely in a digital wallet.", "amount": "Free service", "eligibility": "Every citizen", "status": "Available", "deadline": "Always" },
+      { "title": "Aadhaar (UIDAI)", "desc": "Apply, update or download your 12-digit unique identification number.", "amount": "Free service", "eligibility": "Every resident", "status": "Available", "deadline": "Always" },
+      { "title": "Voter ID", "desc": "Apply for new voter ID, correct details, or check your name in the voter list.", "amount": "Free service", "eligibility": "Citizens 18+ years", "status": "Available", "deadline": "Always" },
+      { "title": "PAN Card", "desc": "Apply for a new PAN card or make corrections to an existing one.", "amount": "Small fee applies", "eligibility": "Every taxpayer/citizen", "status": "Available", "deadline": "Always" },
+      { "title": "Driving License / RC", "desc": "Apply for driving license, vehicle registration, and related transport services.", "amount": "Fee as per service", "eligibility": "Eligible drivers/vehicle owners", "status": "Available", "deadline": "Always" },
+      { "title": "Passport", "desc": "Apply for a new passport or renew an existing one online.", "amount": "Fee as per service", "eligibility": "Indian citizens", "status": "Available", "deadline": "Always" }
+    ]
+  },
+  "student": {
+    "categories": {
+      "roadmap": "Career Roadmap",
+      "school": "1st - 10th Studies",
+      "after10th": "Paths After 10th",
+      "interExams": "Entrance Exams After Inter (JEE, NEET, CA, B.Sc Vet)",
+      "degreeCourses": "Degree Courses (B.Com, B.Sc, B.Lib)",
+      "defense": "Space, Science & Defense",
+      "graduation": "B.Tech, GATE & PG",
+      "management": "IIMs, CAT & Legal",
+      "it": "Software & IT Fields",
+      "govt": "Government Jobs & Civil Services",
+      "sportsAbroad": "Sports, Study Abroad & Loans"
+    },
+    "ui": {
+      "headerTitle": "Vidya Margadarshi",
+      "headerSubtitle": "Complete Career Roadmap",
+      "headerDesc": "A clear path from 1st class to B.Com, Veterinary, Library Science, JEE, NEET, CA, GATE, ISRO & UPSC",
+      "backHome": "← Back to Home",
+      "navTitle": "Choose your student journey (Navigation)",
+      "detailsLabel": "View details",
+      "entranceLabel": "Entrance exam details",
+      "whatIsIt": "What is this?",
+      "howToApply": "How to apply?",
+      "officialPortal": "Official Portal / Details"
+    },
+    "roadmap": {
+      "badge": "★ Complete Guide",
+      "title": "🗺️ Visual Career Flowchart (School to Entrance Exams & Career)",
+      "subtitle": "Complete map from 1st class to getting a job, crossing entrance exams like B.Com, Veterinary, Library Science, JEE, NEET, CA, GATE, CAT, UPSC Civils.",
+      "arrow1": "↓ (Pass 10th grade)",
+      "arrow2": "↓ (Inter / 12th Exams)",
+      "arrow3": "↓ (Degree / B.Tech / PG)",
+      "stage1": {
+        "label": "Stage 1: School Education (1st - 10th Class)",
+        "boxes": [
+          { "title": "🎒 Primary Education (1-5th)", "desc": "Thalliki Vandanam scheme, literacy program & foundation." },
+          { "title": "🏫 Gurukulams & Navodaya (5th/6th Entry)", "desc": "Free English medium education, hostel stay (APSWREIS, JNV, Sainik)." },
+          { "title": "💰 8th Class NMMS Scholarship", "desc": "₹12,000 per year financial support from 9th to 12th class." }
+        ]
+      },
+      "stage2": {
+        "label": "Stage 2: Paths After 10th",
+        "boxes": [
+          { "title": "🎓 RGUKT IIIT (6-year B.Tech)", "desc": "Free 6-year B.Tech & laptop for rural students, no entrance exam needed based on 10th marks." },
+          { "title": "📚 Intermediate (2 years)", "desc": "MPC, BiPC, CEC, MEC - for JEE / NEET / Veterinary / CA / CLAT." },
+          { "title": "🔧 Polytechnic Diploma (3 years)", "desc": "Technical jobs through POLYCET or direct entry to B.Tech 2nd Year (Lateral Entry)." },
+          { "title": "⚙️ ITI Vocational Education", "desc": "Electrician, fitter - for Railways & Industry jobs." }
+        ]
+      },
+      "stage3": {
+        "label": "Stage 3: Degree & Entrance Exams After Inter",
+        "boxes": [
+          { "title": "🩺 B.Sc Veterinary Science", "desc": "5.5-year veterinary course through EAPCET / NEET after BiPC." },
+          { "title": "📊 B.Com & CA Foundation", "desc": "Commerce, auditing, banking & finance fields." },
+          { "title": "🏛️ JEE Main & Advanced", "desc": "For seats in IIT, NIT, IIIT, IIST (ISRO)." },
+          { "title": "🏥 NEET-UG & EAPCET", "desc": "MBBS/BDS and engineering/agriculture colleges." },
+          { "title": "📚 B.Sc, B.A, BBA Degree", "desc": "General graduation through the OAMDC degree portal." }
+        ]
+      },
+      "stage4": {
+        "label": "Stage 4: Entrance Exams, Library Courses & Careers After Degree/B.Tech",
+        "cards": [
+          { "icon": "📖", "title": "Library Science (B.Lib.I.Sc)", "desc": "1-year library course after degree. Digital Librarian, university & government jobs.", "target": "degreeCourses" },
+          { "icon": "🏛️", "title": "UPSC & APPSC Groups", "desc": "IAS, IPS, IRS, RDO, DSP, Tahsildar and top government jobs.", "target": "govt" },
+          { "icon": "🏢", "title": "IIMs & CAT (Management)", "desc": "MBA at IIMs through CAT or top business schools, MCA through ICET.", "target": "management" },
+          { "icon": "⚙️", "title": "GATE & PSU Govt Jobs", "desc": "M.Tech at IITs through GATE, DRDO/ISRO Scientist & IOCL, ONGC jobs.", "target": "graduation" },
+          { "icon": "🚀", "title": "ISRO, DRDO & Defense", "desc": "ISRO rocket scientist, UPSC CDS/AFCAT Air Force, Navy & Army officers.", "target": "defense" },
+          { "icon": "💻", "title": "Software & IT Field", "desc": "Full-Stack Developer, AI Specialist, Data Analyst & Cyber Security.", "target": "it" }
+        ]
+      }
+    },
+    "sections": {
+      "school": {
+        "stepNum": "Step 01",
+        "title": "🎒 School Level Studies (1st - 10th Class)",
+        "subtitle": "Free quality education, hostel facilities, working schemes & scholarships for rural students.",
+        "cards": [
+          { "badge": "AP New Education Scheme", "title": "🎒 Thalliki Vandanam (AP Govt New Scheme)", "desc": "A scheme that provides direct financial assistance every year to every school-going student, given by the AP Government.", "howTo": "Registered based on school admissions through the Jnanabhumi / AP School Education portal." },
+          { "badge": "5th & 6th Class Admission", "title": "🏫 Gurukul Schools (APSWREIS / MJPAP / APTWREIS)", "desc": "Free English medium education, hostel stay, free food, books and free uniforms.", "howTo": "Apply through the AP Gurukul admissions portal while studying in 4th or 5th class." },
+          { "badge": "6th & 9th Class Admission", "title": "🎖️ Jawahar Navodaya & Sainik Schools (JNV / Sainik)", "desc": "Top-quality free education from the central government. Training to become IAS officers, scientists, military officers.", "howTo": "Selected through the national JNVST & AISSEE entrance exams." },
+          { "badge": "For 8th Class Students", "title": "💰 NMMS National Scholarship Scheme", "desc": "₹12,000 per year (₹1,000/month) scholarship for poor students who pass the exam, from 9th to 12th (Inter).", "howTo": "Apply through the BSE AP portal via the school headmaster while in 8th class." }
+        ]
+      },
+      "after10th": {
+        "stepNum": "Step 02",
+        "title": "📘 Moving Forward After 10th Class",
+        "subtitle": "Popular paths to choose based on 10th marks or through entrance exams.",
+        "cards": [
+          { "badge": "Free 6-year B.Tech", "title": "🎓 RGUKT IIITs (Nuzvid, Idupulapaya, Ongole, Srikakulam)", "desc": "Direct 6-year free B.Tech, hostel & laptop for rural students with top 10th marks, no entrance exam needed.", "howTo": "Apply on the RGUKT official website as soon as 10th results are declared." },
+          { "badge": "3-year Technical Course", "title": "🔧 Polytechnic Diploma (AP POLYCET / SBTET)", "desc": "Technical jobs in a short time or the chance to directly join B.Tech 2nd Year (Lateral Entry ECET).", "howTo": "Write the AP POLYCET entrance exam while studying in 10th class." },
+          { "badge": "Intermediate Board", "title": "📚 BIEAP (MPC, BiPC, CEC, MEC)", "desc": "Foundation for those who want to study engineering, medicine, CA, become a scientist, defense or degree.", "howTo": "Join a BIEAP-recognized junior college after passing 10th class." },
+          { "badge": "Short-term Vocational Education", "title": "⚙️ ITI (Industrial Training Institute)", "desc": "Electrician, fitter, draftsman. Immediate jobs in Railways (RRB) and industries.", "howTo": "Select options on the ITI admissions portal based on 10th marks." }
+        ]
+      },
+      "interExams": {
+        "stepNum": "Step 03",
+        "title": "✏️ Entrance Exams After Inter / 12th",
+        "subtitle": "National/state level entrance exams to be written while studying Inter 2nd year or after passing.",
+        "cards": [
+          { "badge": "Inter BiPC (Veterinary Course)", "title": "🩺 B.Sc Veterinary Science (B.V.Sc & AH)", "desc": "A 5.5-year degree course. After completing this you can settle as a Government Veterinary Doctor, Animal Surgeon or Dairy Farm Consultant.", "howTo": "After completing Inter BiPC, apply through AP EAPCET / NEET admission counselling and the SVVU (Sri Venkateswara Veterinary University) portal." },
+          { "badge": "Inter CEC / MEC / MPC / BiPC", "title": "📊 CA Foundation (Chartered Accountancy - ICAI)", "desc": "The first exam toward becoming a Chartered Accountant (CA) to work as an auditor, financial advisor or CFO in top corporate companies.", "howTo": "Register on the ICAI portal while writing 12th / Inter and take the CA Foundation exam." },
+          { "badge": "Inter MPC (National Entrance)", "title": "🏛️ JEE Main & JEE Advanced (IITs, NITs, IIITs)", "desc": "Securing a B.Tech seat at the country's top IITs, NITs and the IIST space institute.", "howTo": "Apply for JEE Main on the official NTA portal while in Inter 2nd year." },
+          { "badge": "Inter MPC / BiPC (State Entrance)", "title": "🏫 AP EAPCET (EAMCET - Engineering & Ag)", "desc": "For government and private engineering, agriculture and pharmacy colleges in Andhra Pradesh.", "howTo": "Apply for the AP EAPCET notification around the time APSCHE Inter exams finish." },
+          { "badge": "Inter BiPC", "title": "🩺 NEET-UG (MBBS / BDS / AYUSH)", "desc": "The single national-level entrance exam for those who want to become doctors.", "howTo": "Apply through the NTA NEET website while in Inter 2nd year." },
+          { "badge": "12th Any Stream", "title": "⚖️ CLAT (Common Law Admission Test - NLUs)", "desc": "To join the 5-year BA LLB / BBA LLB courses at the country's 24 National Law Universities (NLUs).", "howTo": "Apply on the Consortium of NLUs official portal and clear the CLAT exam." }
+        ]
+      },
+      "degreeCourses": {
+        "stepNum": "Step 04",
+        "title": "📚 Degree Courses (B.Com, B.Sc & Library Science)",
+        "subtitle": "Degree fields after Inter and library science courses taken after graduation.",
+        "cards": [
+          { "badge": "1-year course after degree", "title": "📖 Library Science (B.Lib.I.Sc - Bachelor of Library Science)", "desc": "A 1-year course after any degree (BA, B.Com, B.Sc). You can become a Digital Librarian, University Librarian, Google/Corporate Knowledge Manager, or get government jobs at IIT, AIIMS, Railways.", "howTo": "After completing your degree, join universities like Andhra University, SVU through the AP PGCET entrance exam." },
+          { "badge": "Inter CEC / MEC / Science", "title": "📊 B.Com (General, Computer Applications, Honors)", "desc": "A 3/4 year degree course in commerce, accounting, taxation and banking. From commerce you can go on to CA, CS, M.Com, MBA.", "howTo": "Apply through the AP OAMDC (Online Admissions for Degree Colleges) portal based on Inter marks." },
+          { "badge": "Inter MPC / BiPC", "title": "🧪 B.Sc (Computers, Data Science, Biotech, Physics)", "desc": "A standard degree course for going into research in science, the software field or teaching.", "howTo": "Admission through AP OAMDC online counselling after Inter." },
+          { "badge": "12th Any Stream", "title": "💼 BBA / BBM (Bachelor of Business Administration)", "desc": "A degree that lays the foundation for business management, marketing and HR fields.", "howTo": "Select college options through the degree online portal OAMDC." }
+        ]
+      },
+      "defense": {
+        "stepNum": "Step 05",
+        "title": "🚀 Space, Science, Army & Fighter Pilots",
+        "subtitle": "The nation's top fields of service: scientists, astronauts, fighter pilots & army officers.",
+        "cards": [
+          { "badge": "ISRO / NASA / Space", "title": "🚀 Space Scientist & Astronaut (IIST / ISRO)", "desc": "Becoming a rocket scientist, satellite expert or astronaut at ISRO and NASA.", "howTo": "Write JEE Advanced in Inter MPC and study B.Tech at the Indian Institute of Space Science and Technology (IIST) to get a direct scientist posting at ISRO.", "extraLabel": "ISRO Careers Portal ↗" },
+          { "badge": "Inter MPC eligibility", "title": "✈️ IAF Fighter Pilot & Air Force Officer (NDA)", "desc": "Becoming a fighter pilot who flies fighter jets, or an Air Force officer.", "howTo": "While studying 12th MPC, clear the UPSC NDA (National Defence Academy) written exam & SSB interview.", "extraLabel": "Join Indian Air Force ↗" },
+          { "badge": "Indian Armed Forces", "title": "🪖 Indian Army & Navy Officer", "desc": "Serving as a Commanding Officer at Lieutenant, Captain rank in the Indian Army.", "howTo": "You can join through NDA after Inter 10+2, or through UPSC CDS / Technical Entry Scheme (TES) after a Degree.", "extraLabel": "Join Indian Navy ↗" },
+          { "badge": "Indian Research Institutions", "title": "🔬 DRDO / CSIR / BARC Research Scientist", "desc": "A leading scientist working on missiles, defense technology, nuclear science and medical research.", "howTo": "After completing B.Sc / B.Tech / M.Sc, write GATE or CSIR-NET to join as a Scientist at DRDO, BARC." }
+        ]
+      },
+      "graduation": {
+        "stepNum": "Step 06",
+        "title": "🎓 B.Tech, GATE & PG Roadmap",
+        "subtitle": "Higher studies and central government job paths after completing B.Tech or a degree.",
+        "cards": [
+          { "badge": "B.Tech 3rd/4th Year", "title": "⚙️ GATE (Graduate Aptitude Test in Engineering)", "desc": "M.Tech at IITs or public sector (PSU) government jobs like ISRO, DRDO, ONGC, IOCL, NTPC.", "howTo": "Apply on the official GATE portal while in B.Tech 3rd year or final year." },
+          { "badge": "Degree / B.Tech", "title": "🔬 CSIR NET & UGC NET (Lectureship & JRF)", "desc": "Becoming a university professor after Degree/PG, or a Junior Research Fellow (JRF) at government research labs.", "howTo": "Write the NTA NET exam in your M.Sc / M.A / M.Tech final year." },
+          { "badge": "Degree Any Stream", "title": "📚 AP ICET (MBA & MCA Admissions)", "desc": "The chance to complete an MBA or MCA at government colleges in Andhra Pradesh for free or at low fees.", "howTo": "Apply for the AP ICET notification in your degree final year." }
+        ]
+      },
+      "management": {
+        "stepNum": "Step 07",
+        "title": "💼 IIMs, CAT Management & Legal Education",
+        "subtitle": "The country's top business schools (IIMs) and the legal profession.",
+        "cards": [
+          { "badge": "After completing degree", "title": "📈 CAT (Common Admission Test - IIM MBA)", "desc": "The path to getting the highest-paying placements at IIM Ahmedabad, Bangalore, Vizag and top B-Schools.", "howTo": "Apply through the IIM CAT website while in your final year of any degree." },
+          { "badge": "Degree eligibility", "title": "⚖️ AP LAWCET (3-Year LLB & LLM)", "desc": "Complete a 3-year LLB after your degree and become a lawyer or judge in High Court / District Courts.", "howTo": "Apply for the AP LAWCET entrance in your final year of degree." }
+        ]
+      },
+      "it": {
+        "stepNum": "Step 08",
+        "title": "💻 Software & IT Field (Software Careers)",
+        "subtitle": "The hottest skills, projects & career routes for the highest salaries in the technology field.",
+        "cards": [
+          { "badge": "High-demand skill", "title": "🌐 Full-Stack Web & Mobile Development", "desc": "Building web and mobile apps with React, Node.js, Python & Cloud technologies.", "howTo": "Build projects through coding bootcamps, YouTube or learning portals (freeCodeCamp)." },
+          { "badge": "Future Technology", "title": "🤖 AI, Machine Learning & Data Science", "desc": "Analyzing data, building artificial intelligence models and chatbots.", "howTo": "Learn Python, Math, SQL and libraries like TensorFlow." },
+          { "badge": "Security Role", "title": "🛡️ Cyber Security & Ethical Hacking", "desc": "A security expert who protects organizations' data and networks from cyber attacks.", "howTo": "Earn certifications like CEH (Certified Ethical Hacker) or CompTIA Security+." }
+        ]
+      },
+      "govt": {
+        "stepNum": "Step 09",
+        "title": "🏛️ Government Jobs & Civil Services (UPSC, Groups, DSC, Police & SSC)",
+        "subtitle": "Top posts in state and central governments, teaching, police & banking jobs.",
+        "cards": [
+          { "badge": "Top Civil Service", "title": "🏛️ UPSC Civil Services (IAS, IPS, IFS, IRS)", "desc": "The all-India level exam for the most prestigious posts like Collector, SP, Ambassador in the country.", "howTo": "After completing any degree, clear Prelims, Mains & Interview through the UPSC portal." },
+          { "badge": "State Government", "title": "🏛️ APPSC / TSPSC Groups (Group 1, 2, 4)", "desc": "Posts like RDO, DSP, Tahsildar, Panchayat Secretary, Assistant Section Officer (ASO).", "howTo": "Based on your degree/qualification, do a One-Time Registration (OTPR) on the APPSC/TSPSC official portals and apply." },
+          { "badge": "Teaching Field", "title": "🧑‍🏫 AP DSC & TET (Teacher Jobs)", "desc": "SGT and School Assistant posts. A job as a teacher in AP government schools.", "howTo": "Complete D.Ed / B.Ed, qualify TET, and apply for the AP DSC notification." },
+          { "badge": "Defense Field", "title": "👮 AP Police Constable & Sub-Inspector (SI)", "desc": "Roadmap of physical tests and written exam to serve in the police department.", "howTo": "Apply through the AP State Level Police Recruitment Board (SLPRB) portal." },
+          { "badge": "Central Government Jobs", "title": "💼 SSC (CGL, CHSL, MTS) & Railways (RRB)", "desc": "Income Tax, Central Excise, Railways. Thousands of posts with 10th, Inter, Degree qualification.", "howTo": "Do a one-time registration on SSC & RRB portals and apply for notifications." },
+          { "badge": "Finance & Banking", "title": "🏦 IBPS & SBI (Clerk & Probationary Officer - PO)", "desc": "Clerk and Officer jobs in public sector banks.", "howTo": "After completing any degree, write IBPS / SBI online exams." },
+          { "badge": "All Notifications in One Place", "title": "📰 FreeJobAlert — All India Govt Job Notifications", "desc": "Track all state and central government job notifications in one place. This is not an official government site — always apply through the official website only.", "howTo": "Browse job notifications and use the apply link to go to the official website to apply." }
+        ]
+      },
+      "sportsAbroad": {
+        "stepNum": "Step 10",
+        "title": "✈️ Sports, Study Abroad & Loans",
+        "subtitle": "Sports quota, foreign universities, global scholarships & bank loans.",
+        "cards": [
+          { "badge": "Reservation Benefit", "title": "🏆 Sports Quota Jobs & Admissions", "desc": "Getting government jobs & college seats with national, state-level sports certifications.", "howTo": "Participate in recognized tournaments through SAAP (Sports Authority of AP)." },
+          { "badge": "AP Government Scholarship", "title": "🏛️ Study Abroad Scholarship (Videshi Vidya Deevena)", "desc": "Financial support of up to ₹1.25 crore for AP students who get a seat in the world's top 200 universities.", "howTo": "Apply on the Jnanabhumi portal with an offer letter from a QS World Rankings top university." },
+          { "badge": "Entrance Exams", "title": "📝 GRE, TOEFL & IELTS", "desc": "English proficiency and aptitude exams needed for MS / MBA admissions at foreign universities.", "howTo": "Book an online slot and take the exam through ETS / IDP portals." },
+          { "badge": "Bank Education Loans", "title": "💳 Student Education Loans (Vidya Lakshmi Portal)", "desc": "Low-interest education loans from public sector banks for higher studies abroad and in India.", "howTo": "Apply to banks through the central government's Vidya Lakshmi single-window portal." }
+        ]
+      }
+    }
+  },
+  "farmer": {
+    "ui": {
+      "districtTag": "Anantapur District • Pamidi Special Farmer Division",
+      "title": "🌾 Rythu Seva Kendram (Farmer Service Center)",
+      "subtitle": "Cultivation tips, live market rates, government subsidies and a comprehensive crop protection guide",
+      "backHome": "← Back to Home",
+      "advisoryTitle": "Drought Area Farmer Advisory",
+      "advisoryDesc": "Anantapur district is a rain-fed area. Water-saving methods, drip irrigation and choosing low-water crops are best.",
+      "callCenter": "📞 Kisan Call Center: 1800-180-1551",
+      "benefitLabel": "Benefit",
+      "officialLink": "Official Website / Link",
+      "guideTitle": "📌 Comprehensive Cultivation Guide for Key Crops of Pamidi & Anantapur",
+      "guideSubtitle": "The correct way to sow seeds, medicine dosages, and comprehensive crop protection measures",
+      "recommendedBy": "Recommended by Anantapur Agriculture Department"
+    },
+    "tabs": {
+      "all": "All Services",
+      "crops": "🌾 Smart Crops",
+      "modern": "💡 Modern Technology",
+      "market": "📊 Market Rates",
+      "export": "🌍 Export Guide",
+      "schemes": "🏛️ Government Schemes",
+      "soil": "🧪 Soil & Water Conservation",
+      "weather": "🌤️ Weather",
+      "livestock": "🐄 Livestock Development",
+      "guide": "📌 Key Crop Guide"
+    },
+    "resources": [
+      { "title": "Red Soils & Horticulture Cultivation in Anantapur", "category": "Smart Crops", "desc": "Modern methods for growing Sweet Orange, mango, dragon fruit and tomato with less water in the red soils and rain-fed conditions of the Pamidi region.", "features": "Drip irrigation-based cultivation, low water usage, horticulture department advice", "accessType": "Farming Guide" },
+      { "title": "e-Crop Booking & Crop Registration (e-Crop)", "category": "Government Schemes", "desc": "This is not a service you register for yourself online — every season you must visit your nearby RBK (Rythu Bharosa Kendram) and register your Aadhaar, survey number and crop details with the help of the VAA/VRO. Only after registering this way do you become eligible for MSP, free crop insurance and subsidies.", "features": "Registration via VAA/VRO at RBK, Aadhaar + survey number required, mandatory every season", "accessType": "Register at RBK" },
+      { "title": "PM-KUSUM - Solar Pump Set Subsidy Scheme", "category": "Modern Farming", "desc": "The process and application procedure for setting up solar water pumps with a large subsidy from the government, so there are no power cuts at borewells.", "features": "Free electricity, continuous daytime irrigation, large subsidy", "accessType": "Subsidy Scheme" },
+      { "title": "e-NAM National Market Rates", "category": "Market Rates", "desc": "Check the daily live prices of groundnut, red gram and other crops in Anantapur market as well as major markets across the country, updated regularly.", "features": "Live market rates, online trading, price comparison", "accessType": "Live Link" },
+      { "title": "AP Marketing Department - Local Yard Prices", "category": "Market Rates", "desc": "Check the daily rate table officially announced by the government so that dealers at local market yards cannot cheat you.", "features": "Official rate table, market yard phone numbers", "accessType": "Official Portal" },
+      { "title": "APEDA - Anantapur Fruits Export Hub", "category": "Export Guidance", "desc": "Tips to follow through Farmer Producer Organisations (FPOs) to export Anantapur mangoes and Sweet Oranges to other states or abroad.", "features": "International market opportunities, export registration", "accessType": "Export Guide" },
+      { "title": "Rythu Bharosa & PM-KISAN Funds", "category": "Government Schemes", "desc": "The official link to check via your Aadhaar number whether the yearly investment support funds deposited into farmers' bank accounts have been credited.", "features": "Yearly investment support, direct bank transfer", "accessType": "Direct Benefit" },
+      { "title": "Soil Health Card - Digital Soil Testing", "category": "Soil & Weather", "desc": "Get your field's soil sample tested through the RBK to find out which nutrients are low, and reduce unnecessary fertilizer expenses.", "features": "Soil nutrient report, fertilizer recommendation", "accessType": "Free Service" },
+      { "title": "PMFBY - Pradhan Mantri Fasal Bima Yojana", "category": "Crop Insurance", "desc": "You must take insurance every season to get compensation if crops are lost due to drought or lack of rain. Maximum protection at low premium.", "features": "Drought loss compensation, low premium, direct bank compensation", "accessType": "Mandatory Insurance" },
+      { "title": "Drought-Resistant Millets Cultivation", "category": "Smart Crops", "desc": "The government is giving special incentives and support prices for millets like ragi, jowar and bajra that yield well even in low water with dry conditions.", "features": "Minimal water requirement, pest resistance, government incentive", "accessType": "Drought-Resistant Crop" },
+      { "title": "Watershed & Farm Pond (Through NREGA)", "category": "Water Conservation", "desc": "Dig a farm pond (rainwater pit) in your field through the employment guarantee scheme, store rainwater and raise your borewell's water table.", "features": "Free labor cost (NREGA), raises groundwater level, rainwater storage", "accessType": "Free Scheme" },
+      { "title": "Fodder & Water Facility for Livestock During Drought", "category": "Livestock Support", "desc": "Contact the Animal Husbandry Department for free/subsidized fodder and drinking water facilities for livestock in mandals declared drought-affected.", "features": "Subsidized fodder, cattle drinking-water tankers, veterinary camps", "accessType": "Drought Relief" },
+      { "title": "IMD Anantapur Weather Forecast", "category": "Weather", "desc": "Know rainfall and temperature forecasts for the next 7 days along with cyclone/unseasonal rain warnings in advance, so you can plan harvesting and spraying.", "features": "Daily forecast, rain warnings, district-wise data", "accessType": "Live Forecast" },
+      { "title": "Agromet Advisory - Agricultural Weather Advice", "category": "Weather", "desc": "Annual advice from the Agriculture Department on when to irrigate which crop and when not to spray medicine, based on the weather.", "features": "Crop-wise weather advice, spraying time guidance", "accessType": "Weekly Advisory" },
+      { "title": "Veterinary Services & Vaccination Schedule", "category": "Livestock", "desc": "Details of the nearest veterinary hospital, the FMD (foot-and-mouth disease) vaccination schedule, and numbers to contact for emergency veterinary help.", "features": "Free vaccination, emergency veterinary helpline", "accessType": "Free Service" },
+      { "title": "Livestock Insurance Scheme", "category": "Livestock", "desc": "A scheme to insure milch cows, buffaloes, sheep and goats at a low premium and receive compensation if the animal dies.", "features": "Low premium, government subsidy, direct compensation", "accessType": "Insurance Scheme" },
+      { "title": "Dairy Industry & Sheep-Goat Unit Subsidy", "category": "Livestock", "desc": "The process to get a subsidized loan and subsidy, with support from NABARD and the state government, to set up a dairy cow/buffalo, sheep or goat unit.", "features": "Subsidized loan, self-employment opportunity", "accessType": "Subsidy Unit" }
+    ],
+    "cropGuides": [
+      { "name": "🌾 Groundnut Cultivation (Anantapur's Lifeline)", "time": "Kharif season (June - July early monsoon rains)", "details": "• Use 40-50 kg of certified seed per acre (Dharani, Kadiri varieties).\n• Before sowing, treat seeds with 3 grams of Trichoderma viride or Carbendazim per kg of seed.\n• Applying 200 kg of gypsum per acre while plowing is very important for firm pod formation and good yield.\n• To prevent root rot, pour a Carbendazim solution at the roots of the plants." },
+      { "name": "🥭 Mango Cultivation (Rayalaseema Special Banganapalli)", "time": "July - September (planting), November - January (flowering stage)", "details": "• Keep 30x30 feet spacing between plants. For high-density planting, follow 15x15 feet.\n• During the November-January flowering period, spray hexaconazole or sulfur to prevent powdery mildew caused by dew/cold.\n• Use imidacloprid to control the hopper pest." },
+      { "name": "🌱 Red Gram Cultivation (Profitable Intercrop)", "time": "June - July (in rows along with groundnut)", "details": "• Sow 1 row of red gram after every 6 or 8 rows in a groundnut field.\n• Mixing seeds with rhizobium culture before sowing produces nitrogen at the roots and improves soil fertility.\n• Spray profenophos or emamectin benzoate to control the pod borer pest that attacks during the flowering and pod stages." },
+      { "name": "🍊 Sweet Orange Cultivation (Horticultural Crop)", "time": "June - October (rainy season is suitable)", "details": "• Cultivate only through drip irrigation in red soils.\n• Spray micronutrients to correct zinc and iron deficiencies affecting the plants.\n• Pour a copper oxychloride solution at the base of the plants to prevent root dry rot." },
+      { "name": "🌾 Ragi & Jowar Cultivation (Drought-Resistant Millets)", "time": "Kharif (June-July) or Rabi (October-November)", "details": "• Gives good yield even with low rainfall (400-500mm), lower risk than groundnut.\n• 3-4 kg of seed per acre is enough — low investment.\n• Applying 2 tonnes of farmyard manure per acre while preparing the land gives good yield.\n• The government offers special support prices and subsidized seeds for millets — find out details through the RBK." }
+    ]
+  }
+}

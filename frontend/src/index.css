@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+/* Google Translate banner దాచడానికి */
+.goog-te-banner-frame {
+  display: none !important;
+}
+
+body {
+  top: 0px !important;
+}
+
+.goog-te-gadget {
+  height: 0;
+  overflow: hidden;
+}
+
+/* Translate వల్ల page లో వచ్చే ఎరుపు అండర్‌లైన్లు తీసేయడానికి */
+.goog-text-highlight {
+  background: none !important;
+  box-shadow: none !important;
+}
