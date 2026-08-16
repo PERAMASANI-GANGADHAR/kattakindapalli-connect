@@ -157,7 +157,7 @@ const TrackComplaint = () => {
               <div>
                 <h3 className="text-xs font-bold text-slate-400 uppercase tracking-wider mb-2">సమస్య ఫోటో</h3>
                 <img
-                  src={`https://kattakindapalli-connect.onrender.com${...photoUrl}`}
+                  src={`https://kattakindapalli-connect.onrender.com${selectedTicket.photoUrl}`}
                   alt="Complaint"
                   className="w-full h-56 object-cover rounded-2xl border border-slate-200"
                 />
