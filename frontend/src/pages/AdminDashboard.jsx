@@ -25,7 +25,7 @@ const AdminDashboard = () => {
     setLoading(true);
     setError('');
     try {
-      const res = await fetch('http://localhost:5000/api/complaints', {
+      const res = await fetch('https://kattakindapalli-connect.onrender.com/api/complaints', {
         headers: { Authorization: `Bearer ${token}` },
       });
 
@@ -56,7 +56,7 @@ const AdminDashboard = () => {
   const handleQuickStatusChange = async (id, newStatus) => {
     setUpdatingId(id);
     try {
-      const res = await fetch(`http://localhost:5000/api/complaints/${id}`, {
+      const res = await fetch(`https://kattakindapalli-connect.onrender.com/api/complaints/${id}`, {
         method: 'PATCH',
         headers: {
           'Content-Type': 'application/json',
@@ -108,7 +108,7 @@ const AdminDashboard = () => {
       data.append('resolutionNote', resolutionNote);
       if (resolutionPhoto) data.append('resolutionPhoto', resolutionPhoto);
 
-      const res = await fetch(`http://localhost:5000/api/complaints/${modalItem._id}`, {
+      const res = await fetch(`https://kattakindapalli-connect.onrender.com/api/complaints/${modalItem._id}`, {
         method: 'PATCH',
         headers: { Authorization: `Bearer ${token}` },
         body: data,
