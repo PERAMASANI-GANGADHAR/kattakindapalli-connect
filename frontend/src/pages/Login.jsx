@@ -14,7 +14,7 @@ const Login = () => {
     setLoading(true);
 
     try {
-      const res = await fetch('https://kattakindapalli-connect.onrender.com/api/complaints', {
+      const res = await fetch('https://kattakindapalli-connect.onrender.com/api/auth/login', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ username, password }),
