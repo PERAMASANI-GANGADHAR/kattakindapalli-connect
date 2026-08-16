@@ -220,7 +220,7 @@ const AdminDashboard = () => {
               >
                 {item.photoUrl && (
                   <img
-                    src={`http://localhost:5000${item.photoUrl}`}
+                    src={`https://kattakindapalli-connect.onrender.com${item.photoUrl}`}
                     alt="Complaint"
                     className="w-full md:w-32 h-32 object-cover rounded-2xl border border-slate-200 shrink-0"
                   />
@@ -228,7 +228,7 @@ const AdminDashboard = () => {
 
                 {item.selfieUrl && (
                   <img
-                 src={`http://localhost:5000${item.selfieUrl}`}
+                 src={`https://kattakindapalli-connect.onrender.com${item.selfieUrl}`}
                  alt="Selfie"
                  className="w-full md:w-32 h-32 object-cover rounded-2xl border border-slate-200 shrink-0"
                 />
