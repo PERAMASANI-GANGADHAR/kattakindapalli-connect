@@ -1,6 +1,6 @@
 const express = require("express");
 const router = express.Router();
-const Complaint = require("../models/Complaint");
+const Complaint = require("../models/complaint");
 const multer = require("multer");
 const verifyAdmin = require("../middleware/authMiddleware");
 
