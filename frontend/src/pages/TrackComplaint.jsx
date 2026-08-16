@@ -19,7 +19,7 @@ const TrackComplaint = () => {
 
   try {
     // ముందు ID తో ట్రై చేయడం
-    const idRes = await fetch(`http://localhost:5000/api/complaints/${cleanKey}`);
+    const idRes = await fetch(`https://kattakindapalli-connect.onrender.com/api/complaints/${cleanKey}`);
     if (idRes.ok) {
       const data = await idRes.json();
       setSelectedTicket(data);
@@ -28,7 +28,7 @@ const TrackComplaint = () => {
     }
 
     // ID తో దొరకకపోతే, పబ్లిక్ phone-search API వాడటం
-    const phoneRes = await fetch(`http://localhost:5000/api/complaints/search/phone/${cleanKey}`);
+    const phoneRes = await fetch(`https://kattakindapalli-connect.onrender.com/api/complaints/search/phone/${cleanKey}`);
     const results = await phoneRes.json();
     setSelectedTicket(results && results.length > 0 ? results[0] : null);
   } catch (err) {
