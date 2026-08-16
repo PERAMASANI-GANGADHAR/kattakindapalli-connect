@@ -9,7 +9,7 @@ const ComplaintStats = () => {
   useEffect(() => {
     const fetchStats = async () => {
       try {
-        const res = await fetch('http://localhost:5000/api/complaints/stats/summary');
+        const res = await fetch('https://kattakindapalli-connect.onrender.com/api/complaints/stats/summary');
         const data = await res.json();
         setCounts(data);
       } catch (err) {
