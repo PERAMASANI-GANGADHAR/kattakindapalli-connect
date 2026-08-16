@@ -57,25 +57,25 @@ const ComplaintStats = () => {
   ];
 
   return (
-    <section className="py-8 px-6 md:px-12 bg-slate-50 border-b border-slate-200/80">
-      <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
+    <section className="py-6 sm:py-8 px-4 sm:px-6 md:px-12 bg-slate-50 border-b border-slate-200/80">
+      <div className="max-w-7xl mx-auto grid grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-5">
         {stats.map((item, idx) => (
           <div
             key={idx}
-            className={`bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs hover:shadow-md transition-all duration-200 flex flex-col justify-between cursor-pointer border-l-4 ${item.accentColor} group`}
+            className={`bg-white p-3 sm:p-5 rounded-xl sm:rounded-2xl border border-slate-200/80 shadow-xs hover:shadow-md transition-all duration-200 flex flex-col justify-between cursor-pointer border-l-4 ${item.accentColor} group`}
           >
             <div className="flex items-start justify-between">
-              <span className={`w-10 h-10 rounded-xl flex items-center justify-center text-lg border ${item.badgeBg}`}>
+              <span className={`w-8 h-8 sm:w-10 sm:h-10 rounded-lg sm:rounded-xl flex items-center justify-center text-base sm:text-lg border ${item.badgeBg}`}>
                 {item.icon}
               </span>
-              <span className="text-2xl font-black text-slate-900 group-hover:scale-105 transition-transform">
+              <span className="text-xl sm:text-2xl font-black text-slate-900 group-hover:scale-105 transition-transform">
                 {loading ? '...' : item.count}
               </span>
             </div>
 
-            <div className="mt-4">
-              <h3 className="font-bold text-slate-900 text-sm">{item.title}</h3>
-              <p className="text-xs text-slate-500 font-medium leading-relaxed mt-1">{item.desc}</p>
+            <div className="mt-2 sm:mt-4">
+              <h3 className="font-bold text-slate-900 text-xs sm:text-sm">{item.title}</h3>
+              <p className="text-[10px] sm:text-xs text-slate-500 font-medium leading-relaxed mt-0.5 sm:mt-1">{item.desc}</p>
             </div>
           </div>
         ))}
