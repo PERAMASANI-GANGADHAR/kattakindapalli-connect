@@ -104,7 +104,7 @@ const ReportProblem = () => {
 
     try {
       setLoading(true);
-      const res = await fetch('http://localhost:5000/api/complaints', {
+     const res = await fetch('https://kattakindapalli-connect.onrender.com/api/complaints', {
         method: 'POST',
         body: data,
       });
