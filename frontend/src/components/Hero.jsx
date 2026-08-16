@@ -102,7 +102,7 @@ const Hero = () => {
         </div>
 
         {/* Right Side - Weather Card */}
-        <div className="lg:col-span-5 flex justify-start lg:justify-end">
+        <div className="hidden lg:flex lg:col-span-5 lg:justify-end">
           <div className="relative w-full max-w-xs">
 
             <div className="relative bg-[#FBF6EA] rounded-t-[3rem] rounded-b-xl overflow-hidden shadow-2xl border-4 border-[#0B4D3C]">
